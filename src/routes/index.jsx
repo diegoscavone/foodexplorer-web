@@ -1,7 +1,6 @@
 import { BrowserRouter } from 'react-router-dom'
 
 import { useAuth } from '../hooks/auth'
-import { USER_ROLE } from '../utils/roles'
 
 import { UserRoutes } from './user.routes'
 import { AuthRoutes } from './auth.routes'
