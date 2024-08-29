@@ -13,18 +13,33 @@ export default createGlobalStyle`
 
   body{
     background-color: ${({ theme }) => theme.COLORS.DARK_400};
+    font-size: 1.6rem;
   }
 
-  body, input{
+  a{
+    text-decoration: none;
+  }
+
+  body, input, textarea{
     font-family: 'Roboto', sans-serif;
   }
  
-  button{
+  button, h1, h2, span, a{
     font-family: 'Poppins', sans-serif;
   }
 
   input{
     outline: none;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
   }
 
 `

@@ -13,8 +13,8 @@ export default {
     DARK_300: '#000204',
     DARK_400: '#000A0F',
     DARK_500: '#000C12',
-    DARK_600: '#000111A',
-    DARK_700: '#0001119',
+    DARK_600: '#00111A',
+    DARK_700: '#001119',
     DARK_800: '#0D161B',
     DARK_900: '#0D1D25',
     DARK_1000: '#192227',
@@ -33,14 +33,5 @@ export default {
 
     CAKE_100: '#065E7C',
     CAKE_200: '#82F3FF'
-  },
-
-  TYPOGRAFY:{
-    ROBOTO_SMALLREGULAR:{
-    fontFamily: 'Roboto, sans-serif',
-    fontWeight: 400,
-    fontSize: '1.4rem',
-    lineHeight: '160%'
-    }
   }
 }
