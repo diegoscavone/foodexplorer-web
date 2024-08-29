@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useAuth } from '../hooks/auth'
 
 const api = axios.create({
-  baseURL: 'https://foodexplorer-api-r0im.onrender.com' || 'http://localhost:3333',
+  baseURL: 'https://foodexplorer-api-r0im.onrender.com',
   withCredentials: true
 })
 
