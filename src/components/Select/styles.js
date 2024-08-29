@@ -19,7 +19,8 @@ export const Container = styled.select`
     color: ${({ theme }) => theme.COLORS.LIGHT_400};
     font-size: 1.6rem;
 
-    background: url(${chevron}) no-repeat right 1.4rem center ${({ theme }) => theme.COLORS.DARK_800};
+    background: url(${chevron}) no-repeat right 1.4rem center;
+    background-color: ${({ theme }) => theme.COLORS.DARK_800};
 
     cursor: pointer;
 
