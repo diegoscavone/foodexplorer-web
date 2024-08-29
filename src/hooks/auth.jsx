@@ -79,7 +79,7 @@ function AuthProvider({ children }) {
       style: { background: '#065E7C' },
       autoClose: 3000,
     })
-    window.location.href = '/'
+    // window.location.href = '/'
   }
 
   useEffect(() => {
