@@ -1,8 +1,41 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview](https://github.com/diegoscavone/foodexplorer-web/blob/master/src/assets/preview.jpg)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O FoodExplorer é o projeto final do Curso Explorer da Rocketseat. Trata-se de um cardápio digital para um restaurante fictício, projetado para proporcionar uma experiência intuitiva e eficiente tanto para os clientes quanto para os administradores do restaurante. Com o FoodExplorer, os clientes podem visualizar as opções do menu, enquanto os administradores têm a capacidade de gerenciar o conteúdo do cardápio.
+
+A aplicação foi desenvolvida usando as mais recentes tecnologias web, garantindo uma interface moderna e responsiva.
+
+Você pode acessar o projeto hospedado no seguinte link: [FoodExplorer](https://foodexplorerscavone.netlify.app/)
+
+* [Backend](https://github.com/diegoscavone/foodexplorer-api)
+
+
+
+## 👨🏻‍💻 Deploy
+
+Para acessar a aplicação, utilize as credenciais abaixo:
+
+`Administrador`
+
+- Email: admin@email.com
+- Senha: 102030
+
+
+`Usuário Comum`
+- Email: user@email.com
+- Senha: 102030
+
+Essas credenciais permitem que você experimente tanto o lado administrativo quanto o lado do cliente da aplicação.
+
+
+## 🚀 Tecnologias
+
+* Axios
+* React
+* React-router
+* React-icons
+* Styled-components
+* Vite.js
+* Node.js
+
