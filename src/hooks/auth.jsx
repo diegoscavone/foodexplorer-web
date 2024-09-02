@@ -73,13 +73,6 @@ function AuthProvider({ children }) {
   async function signOut() {
     localStorage.removeItem('@foodexplorer:user')
     setData({})
-    // toast.info('Redirecionando para o login.', {
-    //   bodyStyle: { color: '#ffffff' , background: '#065E7C' },
-    //   progressStyle: { background: '#82F3FF' },
-    //   style: { background: '#065E7C' },
-    //   autoClose: 3000,
-    // })
-    // window.location.href = '/'
   }
 
   useEffect(() => {

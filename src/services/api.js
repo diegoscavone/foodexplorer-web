@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'https://foodexplorer-api-kaol.onrender.com',
-  withCredentials: true,
+  baseURL: 'https://foodexplorer-api-ltsn.onrender.com',
+  withCredentials: true
 })
